@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.inBox {
+  border: 3px solid white;
+  color: #0f9;
+  background-color: black;
+  padding: 10px;
+}
+
+.navBar {
+  color: #ff0800;
+}
+
+.navBar li {
+  list-style: none;
+}
