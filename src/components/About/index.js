@@ -1,5 +1,5 @@
 import React from 'react';
-import spiral from '../../assets/spiral.jpg';
+import spiral from '../../assets/photos/spiral.jpg';
 
 function About() {
   return (
