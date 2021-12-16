@@ -46,9 +46,6 @@ function Footer() {
             </ExternalLink>
           </li>
           <li>
-            <ExternalLink href="" target="_blank"></ExternalLink>
-          </li>
-          <li>
             <ExternalLink href="mailto:DeveloperDuckArroyo@gmail.com">
               Email Me
             </ExternalLink>
