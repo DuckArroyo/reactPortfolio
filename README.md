@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# challenge20
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![GitHublicense](https://img.shields.io/npm/l/express?style=for-the-badge)
 
-## Available Scripts
+20. React Challenge: React Portfolio
 
-In the project directory, you can run:
+## UO Coding bootcamp Challenge
 
-### `npm start`
+## Links
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Github Pages [Link](https://duckarroyo.github.io/challenge20/)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Github Repository [Link](https://github.com/DuckArroyo/challenge20)
 
-### `npm test`
+Heroku [Link]()
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Description
 
-### `npm run build`
+Create a single page portfolio with React
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Required installations for code duplication
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+npm - npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+.env - npm install dotenv
 
-### `npm run eject`
+bcrypt - npm install bcrypt
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Connect-session-sequelize - npm i connect-session-sequelize
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Express Handlebars - npm install express-handlebars
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Express-sessions - npm i express-session
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+express - npm install express
 
-## Learn More
+fs - npm install file-system --save
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+inquirer - npm install inquirer
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Mongoose - npm install mongoose
 
-### Code Splitting
+mysql2 - npm install mysql2
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+sequelize - npm install sequelize
 
-### Analyzing the Bundle Size
+## The commandments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+"scripts": {
+"watch": "nodemon server.js",
+"test": "jest",
+"start": "node server.js",
+"seed": "node seeds/index.js"
+},
 
-### Making a Progressive Web App
+# Contributions by:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+DeveloperDuckArroyo
 
-### Advanced Configuration
+[Portfolio](https://duckarroyo.github.io/challenge2/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+[GitHub](https://github.com/DuckArroyo)
 
-### Deployment
+[Twitter @DevDuckArroyo](https://twitter.com/DevDuckArroyo)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+[LinkeIn](https://www.linkedin.com/in/duckarroyo/)
 
-### `npm run build` fails to minify
+[CodePen](https://codepen.io/DeveloperDuckArroyo)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Email](mailto:DeveloperDuckArroyo@gmail.com)
+
+# Screnshots
+
+<img src="./.png" style="width: 400px">
