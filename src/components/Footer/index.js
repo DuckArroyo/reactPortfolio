@@ -2,8 +2,7 @@ import React from "react";
 import { ExternalLink } from "react-external-link";
 function Footer() {
   return (
-    <footer>
-      <nav className="footer">
+    <footer className="footer" >
         <ul className="flex-row">
           <li className="mx-2">
             <a href="#about">Back to top</a>
@@ -51,8 +50,6 @@ function Footer() {
             </ExternalLink>
           </li>
         </ul>
-      </nav>
-      <h2 className="inBox">DeveloperDuck</h2>
     </footer>
   );
 }

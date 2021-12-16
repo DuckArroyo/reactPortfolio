@@ -20,18 +20,17 @@ code {
   color: #0f9;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 10px;
+  text-align: center;
 }
 
 .navBar,
 .footer {
   color: #ff0800;
-}
-
-.navBar li,
-.footer li {
-  list-style: none;
-}
-
-.footer {
   background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+}
+
+.navBar ul li,
+.footer ul li {
+  list-style: none;
 }
