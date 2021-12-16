@@ -21,13 +21,13 @@ function Nav() {
   return (
     <header className="flex-row px-1">
       <h2 className="inBox">DeveloperDuck</h2>
-      <nav className="navBar">
-        <ul className="flex-row">
-          <li className="mx-2">
+      <nav>
+        <ul className="navBar">
+          <li>
             <a href="#about">About Me</a>
           </li>
           {categories.map((category) => (
-            <li className={`mx-1 ${
+            <li className={`${
               currentCategory.name === category.name && 'navActive'
               }`} key={category.name}>
               <span onClick={() => {setCurrentCategory(category)}}>
