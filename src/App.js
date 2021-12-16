@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+// import './App.css'; unused now - moved file to assets folder.
 import Nav from './components/Nav';
 import About from './components/About';
 import Gallery from './components/Gallery';
