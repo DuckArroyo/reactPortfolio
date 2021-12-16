@@ -16,6 +16,13 @@ code {
     monospace;
 }
 
+h1,
+h2,
+h3,
+p {
+  color: white;
+}
+
 .inBox {
   border: 3px solid white;
   color: #0f9;
@@ -28,7 +35,6 @@ code {
   outline: 3px solid var(--white);
   outline-offset: 0.25em;
   margin: 0.25em 7em 0.5em;
-
 }
 
 .navBar,
@@ -41,11 +47,26 @@ code {
   text-decoration: none;
 }
 
-@media (min-width: 60rem) {
-  .navBar, .footer {
+/* ! Help  */
+@media (min-width: 800px) {
+  .navBar,
+  .footer {
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 650px) {
+  .footer {
     flex-direction: row;
   }
 }
+
+@media (min-width: 650px) {
+  .navBar {
+    flex-direction: row;
+  }
+}
+
 .navBar li,
 .navBar a,
 .footer a {
@@ -53,5 +74,4 @@ code {
   text-decoration: none;
   font-size: 1.5rem;
   color: #ff0800;
-
 }
