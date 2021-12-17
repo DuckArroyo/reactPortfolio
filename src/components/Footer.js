@@ -27,7 +27,7 @@ export default function Footer() {
       </ExternalLink>
 
       <ExternalLink
-        href="https://codepen.io/DeveloperDuckArroyo)"
+        href="https://codepen.io/DeveloperDuckArroyo"
         target="_blank"
       >
         Codepen
