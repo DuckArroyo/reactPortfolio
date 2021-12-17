@@ -12,45 +12,21 @@ Github Pages [Link](https://duckarroyo.github.io/challenge20/)
 
 Github Repository [Link](https://github.com/DuckArroyo/challenge20)
 
-Heroku [Link]()
-
 ## Description
 
 Create a single page portfolio with React
 
 ## Required installations for code duplication
 
-npm - npm install
-
-.env - npm install dotenv
-
-bcrypt - npm install bcrypt
-
-Connect-session-sequelize - npm i connect-session-sequelize
-
-Express Handlebars - npm install express-handlebars
-
-Express-sessions - npm i express-session
-
-express - npm install express
-
-fs - npm install file-system --save
-
-inquirer - npm install inquirer
-
-Mongoose - npm install mongoose
-
-mysql2 - npm install mysql2
-
-sequelize - npm install sequelize
-
 ## The commandments
 
 "scripts": {
-"watch": "nodemon server.js",
-"test": "jest",
-"start": "node server.js",
-"seed": "node seeds/index.js"
+"start": "react-scripts start",
+"build": "react-scripts build",
+"test": "react-scripts test",
+"eject": "react-scripts eject",
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build"
 },
 
 # Contributions by:
@@ -71,4 +47,12 @@ DeveloperDuckArroyo
 
 # Screnshots
 
-<img src="./.png" style="width: 400px">
+<img src="./src/assets/home.png" style="width: 400px">
+
+<img src="./src/assets/contact.png" style="width: 400px">
+
+<img src="./src/assets/portfolio.png" style="width: 400px">
+
+<img src="./src/assets/resume.png" style="width: 400px">
+
+<img src="./src/assets/five.png" style="width: 400px">
