@@ -2,9 +2,9 @@
 
 ![GitHublicense](https://img.shields.io/npm/l/express?style=for-the-badge)
 
-20. React Challenge: React Portfolio
-
 ## UO Coding bootcamp Challenge
+
+20. React Challenge: React Portfolio
 
 ## Links
 
@@ -15,8 +15,7 @@ Github Repository [Link](https://github.com/DuckArroyo/challenge20)
 ## Description
 
 Create a single page portfolio with React
-
-## Required installations for code duplication
+Page contains; Home page, Front end contact form page, Portfolio page, Resume page, Five year plan page
 
 ## The commandments
 
@@ -49,12 +48,17 @@ DeveloperDuckArroyo
 
 # Screnshots
 
+Home page
 <img src="./src/assets/home.png" style="width: 400px">
 
+Contact form page
 <img src="./src/assets/contact.png" style="width: 400px">
 
+Portfolio page
 <img src="./src/assets/portfolio.png" style="width: 400px">
 
+Resume page
 <img src="./src/assets/resume.png" style="width: 400px">
 
+5 year plan page
 <img src="./src/assets/five.png" style="width: 400px">
