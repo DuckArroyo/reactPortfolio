@@ -1,6 +1,8 @@
 import React from "react";
 import { ExternalLink } from "react-external-link";
-function Footer() {
+
+
+export default function Footer() {
   return (
     <footer className="footer">
       {/* <a href="#about">Back to top</a> */}
@@ -41,4 +43,3 @@ function Footer() {
   );
 }
 
-export default Footer;

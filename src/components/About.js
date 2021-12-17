@@ -1,6 +1,6 @@
 import React from "react";
 
-function About() {
+export default function About() {
   return (
     <section className="my-5">
       <h1 id="about">Where am I?</h1>
@@ -12,5 +12,3 @@ function About() {
     </section>
   );
 }
-
-export default About;

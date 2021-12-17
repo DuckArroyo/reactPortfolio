@@ -1,6 +1,6 @@
 import React from "react";
 
-function Nav() {
+export default function Nav() {
 
   return (
     <header className="flex-row px-1">
@@ -27,5 +27,3 @@ function Nav() {
     </header>
   );
 }
-
-export default Nav;
