@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 // import './App.css'; unused now - moved file to assets folder.
 import Nav from "./components/Nav";
 import About from "./components/About";

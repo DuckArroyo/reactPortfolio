@@ -23,6 +23,10 @@ p {
   color: white;
 }
 
+.error-text {
+  color: red;
+  font-weight: bolder;
+}
 .inBox {
   border: 3px solid white;
   color: #0f9;
