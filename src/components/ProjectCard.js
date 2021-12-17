@@ -3,7 +3,7 @@ import "./projects.css";
 
 export default function ProjectCard(props) {
 
-  //console.log(props.image);
+  console.log(props.image);
   return (
     <div className="card">
       <div className="img-container">
