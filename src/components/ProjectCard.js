@@ -1,12 +1,9 @@
 import React from "react";
 import "./projects.css";
-//attemp to connect
-// import photos from "../assets/photos/";
 
 export default function ProjectCard(props) {
-  //! Need to connect the photos to the img below.
-  // Cannot save in project.json
-  console.log(props.image);
+
+  //console.log(props.image);
   return (
     <div className="card">
       <div className="img-container">

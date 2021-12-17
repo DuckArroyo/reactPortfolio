@@ -49,10 +49,13 @@ export default function Contact() {
       <h1>Message me</h1>
       <form id="contact-form">
         <p>
-        The contact form has front end functionality only at the moment, I will add backend functionality as time allows. 
-        The form does console log user input. 
-        The fields are validated.
+          The contact form has front end functionality only at the moment, I
+          will add backend functionality as time allows. The form does console
+          log user input. The fields are validated.
         </p>
+        <br />
+        <p>To contact me, click the Email me link in the footer.</p>
+        <br />
         <div>
           <label htmlFor="name">Name: </label>
           <br />

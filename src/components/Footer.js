@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className="footer">
       <ExternalLink
-        href="https://duckarroyo.github.io/challenge2/"
+        href="https://duckarroyo.github.io/challenge2"
         target="_blank"
       >
         HTML Portfolio
@@ -20,7 +20,7 @@ export default function Footer() {
       </ExternalLink>
 
       <ExternalLink
-        href="https://www.linkedin.com/in/duckarroyo/"
+        href="https://www.linkedin.com/in/duckarroyo"
         target="_blank"
       >
         LinkedIn
