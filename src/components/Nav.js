@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Nav() {
   return (
-    <header className="flex-row px-1">
+    <header>
       <h2 className="inBox">DeveloperDuck</h2>
       <nav>
         <ul className="navBar">

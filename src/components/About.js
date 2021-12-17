@@ -2,13 +2,12 @@ import React from "react";
 
 export default function About() {
   return (
-    <section className="my-5">
-      <h2 id="about">Welcome</h2>
-
-      <div className="my-2">
+    <section>
+      <h2>Welcome</h2>
+      <div id="content">
         <p>
           Welcome to my first React application. Please look around and feel
-          free to inquire via email or the contact form.
+          free to inquire via email. The contact form has front end functionality only at the moment, I will add backend functionality as time allows. 
         </p>
         <br/>
         <p>

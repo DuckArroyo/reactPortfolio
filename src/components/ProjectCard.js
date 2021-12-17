@@ -15,15 +15,15 @@ export default function ProjectCard(props) {
       <div className="content">
         <ul>
           <li>
-            <strong>Name:</strong> {props.name}
+            <strong>Name: </strong> {props.name}
           </li>
           <li>
-            <strong>GitHub:</strong>
+            <strong>GitHub: </strong>
             <a href={props.gitHub}>Link</a>
           </li>
           <li>
-            <strong>Live Application:</strong>
-            <span href={props.liveLink}>Link</span>
+            <strong>Live Application: </strong>
+            <a href={props.liveLink}>Link</a>
           </li>
         </ul>
       </div>

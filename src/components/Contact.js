@@ -49,11 +49,13 @@ export default function Contact() {
       <h1>Message me</h1>
       <form id="contact-form">
         <p>
-          Since the form does not function, the text is logging to the console
-          for now.
+        The contact form has front end functionality only at the moment, I will add backend functionality as time allows. 
+        The form does console log user input. 
+        The fields are validated.
         </p>
         <div>
           <label htmlFor="name">Name: </label>
+          <br />
           <input
             type="text"
             defaultValue={name}
@@ -63,6 +65,7 @@ export default function Contact() {
         </div>
         <div>
           <label htmlFor="email">Email address: </label>
+          <br />
           <input
             type="email"
             defaultValue={email}
@@ -72,6 +75,8 @@ export default function Contact() {
         </div>
         <div>
           <label htmlFor="message">Message: </label>
+          <br />
+
           <textarea
             name="message"
             defaultValue={message}

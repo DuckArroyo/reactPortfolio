@@ -6,7 +6,7 @@ export default function Resume() {
       <h2>WORK EXPERIENCE</h2>
       <h3>University of Oregon, Eugene — Office Coordinator II</h3>
       <h4>August 2013 - PRESENT</h4>
-      <div>
+      <div id="content">
         <ul>
           <li>Manage budget operations</li>
           <li>Prepare budget reports for program director and teams</li>
@@ -34,6 +34,12 @@ export default function Resume() {
         <p>September 2010 - June 2013</p>
         <h3>Coding Bootcamp</h3>
         <p>July 2021 - January 2022</p>
+        <div id="content">
+          <ul>
+            <li>Content</li>
+            <li>Content</li>
+          </ul>
+        </div>
         <h3>
           Chemeketa Community College, Salem — A.A. Computer Aided Drafting
         </h3>
