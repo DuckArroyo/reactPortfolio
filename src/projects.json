@@ -2,21 +2,21 @@
   {
     "id": 1,
     "name": "swapsies",
-    "image": "../photos/arch.jpg",
+    "image": "../photos/canyon.jpg",
     "gitHub": "https://github.com/DuckArroyo/swapsies",
     "liveLink": "https://sheltered-sands-11266.herokuapp.com/"
   },
   {
     "id": 2,
     "name": "What to Eat",
-    "image": "../photos/baker1.jpg",
+    "image": "../photos/dam.jpg",
     "gitHub": "https://github.com/DuckArroyo/whattoeat",
     "liveLink": "https://duckarroyo.github.io/whattoeat/"
   },
   {
     "id": 3,
     "name": "WickedBlogs",
-    "image": "../photos/blosoms.jpg",
+    "image": "../photos/eye.jpg",
     "gitHub": "https://github.com/DuckArroyo/wickedblogs",
     "liveLink": "https://sleepy-caverns-39452.herokuapp.com"
   },
@@ -30,14 +30,14 @@
   {
     "id": 5,
     "name": "Password Generator",
-    "image": "../photos/canyon.jpg",
+    "image": "../photos/mesa.jpg",
     "gitHub": "https://github.com/DuckArroyo/challenge3",
     "liveLink": "https://duckarroyo.github.io/passwordgenerator/"
   },
   {
     "id": 6,
     "name": "Workday Scheduler",
-    "image": "../photos/eye.jpg",
+    "image": "../photos/sand.jpg",
     "gitHub": "https://github.com/DuckArroyo/challenge5",
     "liveLink": "https://duckarroyo.github.io/challenge5/"
   }

@@ -7,6 +7,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: url("./assets/Backgrounds/F_Background2.png");
+  background-size: 100%;
   background-color: black;
   font-family: "Poppins", sans-serif;
 }
@@ -67,7 +68,7 @@ ul {
 
 .navBar,
 .footer {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
   text-align: center;
   display: flex;
   justify-content: space-around;
