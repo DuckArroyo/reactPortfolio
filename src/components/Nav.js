@@ -1,38 +1,25 @@
 import React from "react";
 
-export default function Nav(props) {
-  const {
-    contactSelected,
-    setContactSelected,
-    portfolioSelected,
-    setPortfolioSelected,
-    resumeSelected,
-    setResumeSelected,
-    fiveSelected,
-    setFiveSelected,
-  } = props;
-
+export default function Nav() {
   return (
     <header className="flex-row px-1">
       <h2 className="inBox">DeveloperDuck</h2>
       <nav>
         <ul className="navBar">
           <li>
-            <a href="#about" onClick={() => setContactSelected(false)}>
-              About Me
-            </a>
+            <a href="/">Home</a>
           </li>
-          <li className={`mx-2 ${contactSelected && "navActive"}`}>
-            <span onClick={() => setContactSelected(true)}>Contact</span>
+          <li>
+            <a href="/contact">Contact</a>
           </li>
-          <li className={`mx-2 ${portfolioSelected && "navActive"}`}>
-            <a onClick={() => setPortfolioSelected(true)}>Portfolio</a>
+          <li>
+            <a href="/portfolio">Portfolio</a>
           </li>
-          <li className={`mx-2 ${resumeSelected && "navActive"}`}>
-            <a onClick={() => setResumeSelected(true)}>Resume</a>
+          <li>
+            <a href="/resume">Resume</a>
           </li>
-          <li className={`mx-2 ${fiveSelected && "navActive"}`}>
-            <a onClick={() => setFiveSelected(true)}>5 Year Plan</a>
+          <li>
+            <a href="/fiveyear">5 Year Plan</a>
           </li>
         </ul>
       </nav>

@@ -1,6 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
+import { Routes, Route } from "react-router-dom";
 // import './App.css'; unused now - moved file to assets folder.
 import Nav from "./components/Nav";
+import Home from "./components/About";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Portfolio from "./components/Portfolio";
@@ -9,69 +11,18 @@ import FiveYrPlan from "./components/FiveYrPlan";
 import Footer from "./components/Footer";
 
 function App() {
-  const [contactSelected, setContactSelected] = useState(false);
-  const [portfolioSelected, setPortfolioSelected] = useState(false);
-  const [resumeSelected, setResumeSelected] = useState(false);
-  const [fiveSelected, setFiveSelected] = useState(false);
-
-  //Should I use category selected?
   return (
-    <div>
-      <Nav
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
-        portfolioSelected={portfolioSelected}
-        setPortfolioSelected={setPortfolioSelected}
-        resumeSelected={resumeSelected}
-        setResumeSelected={setResumeSelected}
-        fiveSelected={fiveSelected}
-        setFiveSelected={setFiveSelected}
-      ></Nav>
-      <main>
-        {!contactSelected ? (
-          <>
-            <About></About>
-            <Portfolio></Portfolio>
-            <Resume></Resume>
-            <FiveYrPlan></FiveYrPlan>
-          </>
-        ) : (
-          <Contact></Contact>
-        )}
-        ,
-        {!portfolioSelected ? (
-          <>
-            <About></About>
-            <Contact></Contact>
-            <Resume></Resume>
-            <FiveYrPlan></FiveYrPlan>
-          </>
-        ) : (
-          <Portfolio></Portfolio>
-        )}
-        ,
-        {!resumeSelected ? (
-          <>
-            <About></About>
-            <Contact></Contact>
-            <Portfolio></Portfolio>
-            <FiveYrPlan></FiveYrPlan>
-          </>
-        ) : (
-          <Resume></Resume>
-        )},
-        {!fiveSelected ? (
-          <>
-            <About></About>
-            <Contact></Contact>
-            <Portfolio></Portfolio>
-            <Resume></Resume>
-          </>
-        ) : (
-          <FiveYrPlan></FiveYrPlan>
-        )}
-      </main>
-      <Footer></Footer>
+    <div className="App">
+      <Nav />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="about" element={<About />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="portfolio" element={<Portfolio />} />
+        <Route path="resume" element={<Resume />} />
+        <Route path="fiveyear" element={<FiveYrPlan />} />
+      </Routes>
+      <Footer />
     </div>
   );
 }
