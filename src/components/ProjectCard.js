@@ -20,10 +20,14 @@ export default function ProjectCard(props) {
             <strong>Name:</strong> {props.name}
           </li>
           <li>
-            <strong>GitHub:</strong> {props.gitHub}
+            <strong>GitHub:</strong> 
+            <a href={props.gitHub} target="_blank">Link</a>
           </li>
           <li>
-            <strong>Live Application:</strong> {props.liveLink}
+            //!Need to convert to a short URL
+            <strong>Live Application:</strong> 
+            <span href="${props.liveLink}" target="_blank">Link</span>
+            
           </li>
         </ul>
       </div>

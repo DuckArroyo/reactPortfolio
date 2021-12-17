@@ -1,12 +1,9 @@
 import React from "react";
 import { ExternalLink } from "react-external-link";
 
-
 export default function Footer() {
   return (
     <footer className="footer">
-      {/* <a href="#about">Back to top</a> */}
-
       <ExternalLink
         href="https://duckarroyo.github.io/challenge2/"
         target="_blank"
@@ -40,7 +37,5 @@ export default function Footer() {
         Email Me
       </ExternalLink>
     </footer>
-    
   );
 }
-
