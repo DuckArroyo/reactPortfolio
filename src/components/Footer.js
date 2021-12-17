@@ -11,7 +11,7 @@ export default function Footer() {
         href="https://duckarroyo.github.io/challenge2/"
         target="_blank"
       >
-        First Portfolio
+        HTML Portfolio
       </ExternalLink>
 
       <ExternalLink href="https://github.com/DuckArroyo" target="_blank">
@@ -33,13 +33,14 @@ export default function Footer() {
         href="https://codepen.io/DeveloperDuckArroyo)"
         target="_blank"
       >
-        Codepen.io
+        Codepen
       </ExternalLink>
 
       <ExternalLink href="mailto:DeveloperDuckArroyo@gmail.com">
         Email Me
       </ExternalLink>
     </footer>
+    
   );
 }
 

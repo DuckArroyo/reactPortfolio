@@ -12,8 +12,9 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{height: '100vh'}}>
       <Nav />
+      <div id='container'>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
@@ -22,7 +23,9 @@ function App() {
         <Route path="resume" element={<Resume />} />
         <Route path="fiveyear" element={<FiveYrPlan />} />
       </Routes>
+      </div>
       <Footer />
+
     </div>
   );
 }

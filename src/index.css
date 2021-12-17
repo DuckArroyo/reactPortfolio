@@ -16,17 +16,29 @@ code {
     monospace;
 }
 
+#container {
+  padding: 2em;
+  height: 60vh;
+  background-color: rgba(38, 38, 38, 0.75);
+}
+
 h1,
 h2,
 h3,
 p {
   color: white;
+  padding: 0;
+  margin: 0;
 }
-
+ul {
+  padding: 0;
+  margin: 0;
+}
 .error-text {
   color: red;
   font-weight: bolder;
 }
+
 .inBox {
   font-family: "Poppins", sans-serif;
   border: 3px solid white;
@@ -48,27 +60,38 @@ p {
   text-align: center;
   display: flex;
   justify-content: space-around;
-  flex-direction: column;
+  flex-direction: row;
   text-decoration: none;
 }
 
 /* ! Help  */
-@media (min-width: 800px) {
+@media (max-width: 800px) {
   .navBar,
   .footer {
     flex-wrap: wrap;
   }
 }
 
-@media (min-width: 650px) {
-  .footer {
-    flex-direction: row;
+@media (max-width: 940px) {
+  .inBox {
+    letter-spacing: 0px;
+    margin: 0.25em 5em 0.5em;
   }
 }
 
-@media (min-width: 650px) {
+@media (max-width: 750px) {
+  .footer {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 650px) {
   .navBar {
-    flex-direction: row;
+    flex-direction: column;
+  }
+  .inBox {
+    letter-spacing: 0px;
+    font-size: 1rem;
   }
 }
 
