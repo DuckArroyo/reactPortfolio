@@ -25,14 +25,19 @@ code {
 h1,
 h2,
 h3,
-p {
+h4,
+p,
+label {
   color: white;
   padding: 0;
   margin: 0;
 }
 ul {
+  list-style: none;
+  text-decoration: none;
   padding: 0;
   margin: 0;
+  color: white;
 }
 .error-text {
   color: red;

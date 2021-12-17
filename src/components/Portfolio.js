@@ -1,14 +1,27 @@
-import React from 'react'
+import React from "react";
+import { useState } from "react";
+import ProjectCard from "./ProjectCard";
+import Wrapper from './Wrapper';
+import projects from "../projects.json";
+import "./projects.css";
 
 export default function Portfolio() {
-    return (
-        <section className="my-5">
-        <h2 id="about">Where am I?</h2>
-        <h2 id="about">Who am I?</h2>
-        <h3 id="about">Why am I?</h3>
-        <div className="my-2">
-          <p>Lorem</p>
-        </div>
-      </section>
-    )
+  const [projectsList, setProjectsList] = useState(projects);
+  console.log(projects);
+  return (
+    <Wrapper>
+      {projectsList.map((projects) => {
+        return (
+          <ProjectCard
+            id={projects.id}
+            key={projects.id}
+            name={projects.name}
+            gitHub={projects.gitHub}
+            liveLink={projects.liveLink}
+            image={projects.image}
+          />
+        );
+      })}
+    </Wrapper>
+  );
 }

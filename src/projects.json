@@ -1,44 +1,44 @@
 [
   {
     "id": 1,
-    "name": "someName",
-    "image": "imagelink",
-    "gitHub": "gitHubUrl",
-    "liveLink": "linkIfAny"
+    "name": "swapsies",
+    "image": "arch.jpg",
+    "gitHub": "https://github.com/DuckArroyo/swapsies",
+    "liveLink": "https://sheltered-sands-11266.herokuapp.com/"
   },
   {
     "id": 2,
-    "name": "someName",
-    "image": "imagelink",
-    "gitHub": "gitHubUrl",
-    "liveLink": "linkIfAny"
+    "name": "What to Eat",
+    "image": "baker1.jpg",
+    "gitHub": "https://github.com/DuckArroyo/whattoeat",
+    "liveLink": "https://duckarroyo.github.io/whattoeat/"
   },
   {
     "id": 3,
-    "name": "someName",
-    "image": "imagelink",
-    "gitHub": "gitHubUrl",
-    "liveLink": "linkIfAny"
+    "name": "WickedBlogs",
+    "image": "blosoms.jpg",
+    "gitHub": "https://github.com/DuckArroyo/wickedblogs",
+    "liveLink": "https://sleepy-caverns-39452.herokuapp.com"
   },
   {
     "id": 4,
-    "name": "someName",
-    "image": "imagelink",
-    "gitHub": "gitHubUrl",
-    "liveLink": "linkIfAny"
-  }
+    "name": "Note Taker",
+    "image": "camdenLock.jpg",
+    "gitHub": "https://github.com/DuckArroyo/challenge11",
+    "liveLink": "https://still-sands-24648.herokuapp.com/"
+  },
   {
     "id": 5,
-    "name": "someName",
-    "image": "imagelink",
-    "gitHub": "gitHubUrl",
-    "liveLink": "linkIfAny"
-},
-{
+    "name": "Password Generator",
+    "image": "canyon.jpg",
+    "gitHub": "https://github.com/DuckArroyo/challenge3",
+    "liveLink": "https://duckarroyo.github.io/passwordgenerator/"
+  },
+  {
     "id": 6,
-    "name": "someName",
-    "image": "imagelink",
-    "gitHub": "gitHubUrl",
-    "liveLink": "linkIfAny"
-},
+    "name": "Workday Scheduler",
+    "image": "eye.jpg",
+    "gitHub": "https://github.com/DuckArroyo/challenge5",
+    "liveLink": "https://duckarroyo.github.io/challenge5/"
+  }
 ]

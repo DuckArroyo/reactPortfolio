@@ -53,7 +53,7 @@ export default function Contact() {
           for now.
         </p>
         <div>
-          <label htmlFor="name">Name:</label>
+          <label htmlFor="name">Name: </label>
           <input
             type="text"
             defaultValue={name}
@@ -62,7 +62,7 @@ export default function Contact() {
           />
         </div>
         <div>
-          <label htmlFor="email">Email address:</label>
+          <label htmlFor="email">Email address: </label>
           <input
             type="email"
             defaultValue={email}
@@ -71,7 +71,7 @@ export default function Contact() {
           />
         </div>
         <div>
-          <label htmlFor="message">Message:</label>
+          <label htmlFor="message">Message: </label>
           <textarea
             name="message"
             defaultValue={message}

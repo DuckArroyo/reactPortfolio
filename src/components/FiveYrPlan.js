@@ -3,11 +3,9 @@ import React from 'react'
 export default function FiveYrPlan() {
     return (
         <section className="my-5">
-        <h2 id="about">Where am I?</h2>
-        <h2 id="about">Who am I?</h2>
-        <h3 id="about">Why am I?</h3>
+        <h2 id="about">In five years</h2>
         <div className="my-2">
-          <p>Lorem</p>
+          <p>In 5 years I would like to be in Japan</p>
         </div>
       </section>
     )
