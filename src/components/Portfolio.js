@@ -1,16 +1,16 @@
 import React from "react";
-import { useState } from "react";
+//!Use State not being used becasue we are not changing the state of the information
+//import { useState } from "react";
 import ProjectCard from "./ProjectCard";
-import Wrapper from './Wrapper';
-import projects from "../projects.json";
+import projectsJson from "../projects.json";
 import "./projects.css";
 
 export default function Portfolio() {
-  const [projectsList, setProjectsList] = useState(projects);
-  console.log(projects);
+  // const [projectsList] = useState(projects);
+  // console.log(projectsList);
   return (
-    <Wrapper>
-      {projectsList.map((projects) => {
+    <div className="wrapper">
+      {projectsJson.map((projects) => {
         return (
           <ProjectCard
             id={projects.id}
@@ -22,6 +22,6 @@ export default function Portfolio() {
           />
         );
       })}
-    </Wrapper>
+    </div>
   );
 }
