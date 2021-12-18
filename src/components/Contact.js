@@ -43,7 +43,7 @@ export default function Contact() {
   //Changes the form label
   const [status, setStatus] = useState("Submit");
 
-  function handleSubmit = async (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
     //Sets error on page
@@ -119,8 +119,7 @@ export default function Contact() {
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
-        <button id="contact-form" type="submit">
-          Send {status}
+        <button id="contact-form" type="submit">{status}
         </button>
       </form>
     </section>

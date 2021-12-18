@@ -20,6 +20,7 @@ Page contains; Home page, Front end contact form page, Portfolio page, Resume pa
 ## The commandments
 
 "scripts": {
+"mailer": "node server.js",
 "start": "react-scripts start",
 "build": "react-scripts build",
 "test": "react-scripts test",
@@ -27,6 +28,8 @@ Page contains; Home page, Front end contact form page, Portfolio page, Resume pa
 "predeploy": "npm run build",
 "deploy": "gh-pages -d build"
 },
+
+mailer - contact form functionality
 
 # Contributions by:
 
