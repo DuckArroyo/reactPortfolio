@@ -40,15 +40,26 @@ export default function Contact() {
   // Leave console log active until form is actually functional
   console.log(formState);
 
+  //Changes the form label
+  const [status, setStatus] = useState("Submit");
+
   function handleSubmit = async (e) => {
     e.preventDefault();
 
+    //Sets error on page
     if (!errorMessage) {
       setFormState({ ...formState, [e.target.name]: e.target.value });
       console.log("Form", formState);
     }
 
     setStatus("Sending...");
+    const { name, email, message } = e.target.elements;
+    let details = {
+      name: name.value,
+      email: email.value,
+      message: message.value,
+    };
+
   }
 
   return (
