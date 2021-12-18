@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { validateEmail } from "../utils/helpers";
 
 export default function Contact() {
+
+  //! Should I have a separate useState for handle submit?
   const [formState, setFormState] = useState({
     name: "",
     email: "",
@@ -35,19 +37,21 @@ export default function Contact() {
   // Leave console log active until form is actually functional
   console.log(formState);
 
-  function handleSubmit(e) {
-    //!Form submission code goes here
+  function handleSubmit = async (e) => {
     e.preventDefault();
+
     if (!errorMessage) {
       setFormState({ ...formState, [e.target.name]: e.target.value });
       console.log("Form", formState);
     }
+
+    setStatus("Sending...");
   }
 
   return (
     <section>
       <h1>Message me</h1>
-      <form id="contact-form">
+      <form id="contact-form" onSubmit={handleSubmit}>
         <p>
           The contact form has front end functionality only at the moment, I
           will add backend functionality as time allows. The form does console
@@ -92,8 +96,8 @@ export default function Contact() {
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
-        <button id="contact-form" onSubmit={handleSubmit}>
-          Send
+        <button id="contact-form" type="submit">
+          Send {status}
         </button>
       </form>
     </section>
