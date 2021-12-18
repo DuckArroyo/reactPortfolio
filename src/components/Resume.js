@@ -35,9 +35,24 @@ export default function Resume() {
         <h3>Coding Bootcamp</h3>
         <p>July 2021 - January 2022</p>
         <div id="content">
+          <h4>Course work</h4>
           <ul>
-            <li>Content</li>
-            <li>Content</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>- State</li>
+            <li>- MERN</li>
+            <li>Progressive Wev Applications</li>
+            <li>NoSQL (Mongo and Mongoose)</li>
+            <li>Object Reactional Mapping</li>
+            <li>SQL</li>
+            <li>Express.js</li>
+            <li>Object Oriented Programming</li>
+            <li>Note.js</li>
+            <li>Server-side APIs</li>
+            <li>Third-Party APIs</li>
+            <li>Web APIs</li>
+            <li>CSS</li>
+            <li>HTML</li>
           </ul>
         </div>
         <h3>
