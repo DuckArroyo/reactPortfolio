@@ -4,6 +4,9 @@ const cors = require("cors");
 const nodemailer = require("nodemailer");
 require("dotenv").config();
 
+//!Pretty sure I need to add to the script but I already have a start script.
+//! Is the node server use only for development?
+
 const app = express();
 app.use(cors());
 app.use(express.json());
@@ -28,5 +31,23 @@ contactEmail.verify((error) => {
   }
 });
 
-//!Pretty sure I need to add to the script but I already have a start script.
-//! Is the node server use only for development?
+router.post("/contact", (req, res) => {
+  const name = req.body.name;
+  const email = req.body.email;
+  const message = req.body.message; 
+  const mail = {
+    from: name,
+    to: process.env.mailUSER,
+    subject: "Contact Form Submission",
+    html: `<p>Name: ${name}</p>
+           <p>Email: ${email}</p>
+           <p>Message: ${message}</p>`,
+  };
+  contactEmail.sendMail(mail, (error) => {
+    if (error) {
+      res.json({ status: "ERROR" });
+    } else {
+      res.json({ status: "Message Sent" });
+    }
+  });
+});
