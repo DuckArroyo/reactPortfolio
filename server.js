@@ -4,14 +4,11 @@ const cors = require("cors");
 const nodemailer = require("nodemailer");
 require("dotenv").config();
 
-//!Pretty sure I need to add to the script but I already have a start script.
-//! Is the node server use only for development?
-//Should there be
 const app = express();
 app.use(cors());
 app.use(express.json());
 app.use("/", router);
-app.listen(80, () => console.log("Mail Server Running"));
+app.listen(process.env.PORT || 5002, () => console.log("Mail Server Running"));
 
 console.log(process.env.mailUSER);
 console.log(process.env.userPW);
