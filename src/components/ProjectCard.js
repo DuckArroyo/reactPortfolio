@@ -1,14 +1,17 @@
 import React from "react";
 import "./projects.css";
-import canyon from "../assets/photos/canyon.jpg";
 
 export default function ProjectCard(props) {
-
   console.log(props.image);
   return (
     <div className="card">
       <div className="img-container">
-        <img alt={props.image} src={canyon} />
+        {/* testing this option */}
+        {/* ! modify the projects.json file */}
+        <img alt={props.image} src={`./assets/photos/${props.image}`} />
+        {/* Original line that worked before deploy to github */}
+        <img alt={props.image} src={props.image} />
+
       </div>
       <div className="content">
         <ul>

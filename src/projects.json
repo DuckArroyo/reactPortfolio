@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "swapsies",
-    "image": "../photos/canyon.jpg",
+    "image": "canyon.jpg",
     "gitHub": "https://github.com/DuckArroyo/swapsies",
     "liveLink": "https://sheltered-sands-11266.herokuapp.com/"
   },
