@@ -59,6 +59,20 @@ export default function Resume() {
           Chemeketa Community College, Salem — A.A. Computer Aided Drafting
         </h3>
         <p>September 2006 - June 2008</p>
+        <div id="content">
+          <h4>Course work</h4>
+          <ul>
+            <li>AutoCAD</li>
+            <li>Inventor</li>
+            <li>AutoCAD Civil</li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
       </div>
     </section>
   );

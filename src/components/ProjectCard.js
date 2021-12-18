@@ -1,5 +1,6 @@
 import React from "react";
 import "./projects.css";
+import canyon from "../assets/photos/canyon.jpg";
 
 export default function ProjectCard(props) {
 
@@ -7,7 +8,7 @@ export default function ProjectCard(props) {
   return (
     <div className="card">
       <div className="img-container">
-        <img alt={props.image} src={props.image} />
+        <img alt={props.image} src={canyon} />
       </div>
       <div className="content">
         <ul>
