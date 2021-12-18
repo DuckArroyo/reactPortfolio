@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import { validateEmail } from "../utils/helpers";
 
+//! Install on MAC.
+//npm install express cors nodemailer
+
 export default function Contact() {
 
   //! Should I have a separate useState for handle submit?
