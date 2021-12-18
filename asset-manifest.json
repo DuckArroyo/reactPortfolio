@@ -1,24 +1,25 @@
 {
   "files": {
     "main.css": "/challenge20/static/css/main.9158d4e8.chunk.css",
-    "main.js": "/challenge20/static/js/main.514dac87.chunk.js",
-    "main.js.map": "/challenge20/static/js/main.514dac87.chunk.js.map",
-    "runtime-main.js": "/challenge20/static/js/runtime-main.00ce2969.js",
-    "runtime-main.js.map": "/challenge20/static/js/runtime-main.00ce2969.js.map",
-    "static/js/2.edd7c3af.chunk.js": "/challenge20/static/js/2.edd7c3af.chunk.js",
-    "static/js/2.edd7c3af.chunk.js.map": "/challenge20/static/js/2.edd7c3af.chunk.js.map",
-    "static/js/3.fe0f9464.chunk.js": "/challenge20/static/js/3.fe0f9464.chunk.js",
-    "static/js/3.fe0f9464.chunk.js.map": "/challenge20/static/js/3.fe0f9464.chunk.js.map",
+    "main.js": "/challenge20/static/js/main.2663514a.chunk.js",
+    "main.js.map": "/challenge20/static/js/main.2663514a.chunk.js.map",
+    "runtime-main.js": "/challenge20/static/js/runtime-main.6c82ce26.js",
+    "runtime-main.js.map": "/challenge20/static/js/runtime-main.6c82ce26.js.map",
+    "static/js/2.3af6affd.chunk.js": "/challenge20/static/js/2.3af6affd.chunk.js",
+    "static/js/2.3af6affd.chunk.js.map": "/challenge20/static/js/2.3af6affd.chunk.js.map",
+    "static/js/3.a9d032c5.chunk.js": "/challenge20/static/js/3.a9d032c5.chunk.js",
+    "static/js/3.a9d032c5.chunk.js.map": "/challenge20/static/js/3.a9d032c5.chunk.js.map",
     "index.html": "/challenge20/index.html",
     "static/css/main.9158d4e8.chunk.css.map": "/challenge20/static/css/main.9158d4e8.chunk.css.map",
-    "static/js/2.edd7c3af.chunk.js.LICENSE.txt": "/challenge20/static/js/2.edd7c3af.chunk.js.LICENSE.txt",
-    "static/js/main.514dac87.chunk.js.LICENSE.txt": "/challenge20/static/js/main.514dac87.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/challenge20/static/media/F_Background2.f09fbec3.png"
+    "static/js/2.3af6affd.chunk.js.LICENSE.txt": "/challenge20/static/js/2.3af6affd.chunk.js.LICENSE.txt",
+    "static/js/main.2663514a.chunk.js.LICENSE.txt": "/challenge20/static/js/main.2663514a.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/challenge20/static/media/F_Background2.f09fbec3.png",
+    "static/media/canyon.4de56c62.jpg": "/challenge20/static/media/canyon.4de56c62.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.00ce2969.js",
-    "static/js/2.edd7c3af.chunk.js",
+    "static/js/runtime-main.6c82ce26.js",
+    "static/js/2.3af6affd.chunk.js",
     "static/css/main.9158d4e8.chunk.css",
-    "static/js/main.514dac87.chunk.js"
+    "static/js/main.2663514a.chunk.js"
   ]
 }
