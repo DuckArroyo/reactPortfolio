@@ -59,7 +59,7 @@ export default function Contact() {
       email: email.value,
       message: message.value,
     };
-    let response = await fetch("http://localhost:5002/contact" || process.env.PORT
+    let response = await fetch(process.env.PORT || 80 || 5002
     , {
       method: "POST",
       headers: {
