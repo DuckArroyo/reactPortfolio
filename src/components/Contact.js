@@ -59,6 +59,9 @@ export default function Contact() {
       email: email.value,
       message: message.value,
     };
+    console.log("========name at handleSubmit:", name);
+console.log("========email at handleSubmit:", email);
+console.log("========message at handleSubmit:", message);
     let response = await fetch(process.env.PORT || 80 || 5002
     , {
       method: "POST",

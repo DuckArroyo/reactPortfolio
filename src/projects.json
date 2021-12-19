@@ -9,7 +9,7 @@
   {
     "id": 2,
     "name": "What to Eat",
-    "image": "../photos/dam.jpg",
+    "image": "./assets/photos/dam.jpg",
     "gitHub": "https://github.com/DuckArroyo/whattoeat",
     "liveLink": "https://duckarroyo.github.io/whattoeat/"
   },
