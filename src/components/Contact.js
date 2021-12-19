@@ -5,17 +5,21 @@ import { validateEmail } from "../utils/helpers";
 //npm install express cors nodemailer
 
 export default function Contact() {
-
-  //! Should I have a separate useState for handle submit?
   const [formState, setFormState] = useState({
     name: "",
     email: "",
     message: "",
   });
 
+  const { name, email, message } = formState;
+  // Leave console log active until form is actually functional
+  console.log(formState);
+
+  //Error message
   const [errorMessage, setErrorMessage] = useState("");
 
-  const { name, email, message } = formState;
+  //Submit label in form
+  const [status, setStatus] = useState("Submit");
 
   function handleChange(e) {
     if (e.target.name === "email") {
@@ -37,12 +41,6 @@ export default function Contact() {
     }
   }
 
-  // Leave console log active until form is actually functional
-  console.log(formState);
-
-  //Changes the form label
-  const [status, setStatus] = useState("Submit");
-
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -54,16 +52,19 @@ export default function Contact() {
 
     setStatus("Sending...");
     const { name, email, message } = e.target.elements;
+    console.log("========name at handleSubmit:", name);
+    console.log("========email at handleSubmit:", email);
+    console.log("========message at handleSubmit:", message);
+    
     let details = {
       name: name.value,
       email: email.value,
       message: message.value,
     };
-    console.log("========name at handleSubmit:", name);
-console.log("========email at handleSubmit:", email);
-console.log("========message at handleSubmit:", message);
-    let response = await fetch(process.env.PORT || 80 || 5002
-    , {
+    console.log("========name.value at handleSubmit:", name.value);
+    console.log("========email.value at handleSubmit:", email.value);
+    console.log("========message.value at handleSubmit:", message.value);
+    let response = await fetch(process.env.PORT || 80 || 5002, {
       method: "POST",
       headers: {
         "Content-Type": "application/json;charset=utf-8",
@@ -73,7 +74,7 @@ console.log("========message at handleSubmit:", message);
     setStatus("Submit");
     let result = await response.json();
     alert(result.status);
-  }
+  };
 
   return (
     <section>
@@ -123,7 +124,8 @@ console.log("========message at handleSubmit:", message);
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
-        <button id="contact-form" type="submit">{status}
+        <button id="contact-form" type="submit">
+          {status}
         </button>
       </form>
     </section>
