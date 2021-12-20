@@ -124,7 +124,7 @@ export default function Contact() {
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
-        <button id="contact-form" type="submit">
+        <button className="btn" id="contact-form" type="submit">
           {status}
         </button>
       </form>
