@@ -12,8 +12,6 @@ export default function Contact() {
   });
 
   const { name, email, message } = formState;
-  // Leave console log active until form is actually functional
-  console.log(formState);
 
   //Error message
   const [errorMessage, setErrorMessage] = useState('');
@@ -52,9 +50,6 @@ export default function Contact() {
 
     setStatus('Sending...');
     const { name, email, message } = e.target.elements;
-    // console.log('========name at handleSubmit:', name);
-    // console.log('========email at handleSubmit:', email);
-    // console.log('========message at handleSubmit:', message);
 
     let details = {
       name: name.value,
@@ -66,19 +61,19 @@ export default function Contact() {
     // console.log('========name.value at handleSubmit:', name.value);
     // console.log('========email.value at handleSubmit:', email.value);
     // console.log('========message.value at handleSubmit:', message.value);
-    let response = await fetch(process.env.PORT || "http://localhost:5002/contact", {
+    let response = await fetch('http://localhost:5002/contact', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json;charset=utf-8',
       },
       body: JSON.stringify(details),
     });
-    console.log('---------Did it reach this?');
+    // console.log('---------Did it reach this?');
     setStatus('Submit');
     let result = await response.json();
-    console.log(result);
+    // console.log(result);
 
-    console.log('---------Did it reach this?');
+    // console.log('---------Did it reach this?');
 
     alert(result.status);
   };
