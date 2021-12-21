@@ -1,18 +1,18 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("./assets/Backgrounds/F_Background2.png");
+  background-image: url('./assets/Backgrounds/F_Background2.png');
   background-size: 100%;
   background-color: black;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 code {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 #container {
@@ -45,7 +45,7 @@ ul {
 }
 
 .inBox {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   border: 3px solid white;
   color: #0f9;
   background-color: rgba(0, 0, 0, 0.5);
@@ -92,6 +92,9 @@ ul {
     letter-spacing: 0px;
     margin: 0.25em 5em 0.5em;
   }
+  .footer {
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 750px) {
@@ -106,7 +109,6 @@ ul {
   }
   .inBox {
     letter-spacing: 0px;
-    font-size: 1rem;
   }
 }
 
