@@ -83,12 +83,10 @@ export default function Contact() {
       <h1>Message me</h1>
       <form id='contact-form' onSubmit={handleSubmit}>
         <p>
-          The contact form has front end functionality only at the moment, I
-          will add backend functionality as time allows. The form does console
-          log user input. The fields are validated.
+          Feel free to use the contact form with comments or questions. Or if
+          you prefer using your device's mail application, click the Email me
+          link on the footer.
         </p>
-        <br />
-        <p>To contact me, click the Email me link in the footer.</p>
         <br />
         <div>
           <label htmlFor='name'>Name: </label>
