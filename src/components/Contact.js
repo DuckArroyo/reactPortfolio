@@ -66,7 +66,7 @@ export default function Contact() {
     // console.log('========name.value at handleSubmit:', name.value);
     // console.log('========email.value at handleSubmit:', email.value);
     // console.log('========message.value at handleSubmit:', message.value);
-    let response = await fetch('/contact', {
+    let response = await fetch(process.env.PORT || "http://localhost:5002/contact", {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json;charset=utf-8',
