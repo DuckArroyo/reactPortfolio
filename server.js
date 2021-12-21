@@ -39,7 +39,7 @@ router.post('/contact', (req, res) => {
   const mail = {
     from: name,
     to: process.env.mailUSER,
-    subject: 'Contact Form Submission',
+    subject: 'Portfolio Contact Form Submission',
     html: `<p>Name: ${name}</p>
            <p>Email: ${email}</p>
            <p>Message: ${message}</p>`,
