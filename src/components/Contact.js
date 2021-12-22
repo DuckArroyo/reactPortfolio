@@ -42,7 +42,7 @@ export default function Contact() {
     //Sets error on page
     if (!errorMessage) {
       setFormState({ ...formState, [e.target.name]: e.target.value });
-      console.log('Form', formState);
+      // console.log('Form', formState);
     }
 
     setStatus('Sending...');
@@ -53,20 +53,18 @@ export default function Contact() {
       email: email.value,
       message: message.value,
     };
-    console.log('========details at handleSubmit:', details);
+    // console.log('========details at handleSubmit:', details);
 
     // console.log('========name.value at handleSubmit:', name.value);
     // console.log('========email.value at handleSubmit:', email.value);
     // console.log('========message.value at handleSubmit:', message.value);
-    let response = await fetch('/mail',
-      {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json;charset=utf-8',
-        },
-        body: JSON.stringify(details),
-      }
-    );
+    let response = await fetch('/mail', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json;charset=utf-8',
+      },
+      body: JSON.stringify(details),
+    });
     // console.log('---------Did it reach this?');
     setStatus('Submited');
     let result = await response.json();
@@ -82,9 +80,9 @@ export default function Contact() {
       <h1>Message me</h1>
       <form id='contact-form' onSubmit={handleSubmit}>
         <p>
-          Feel free to use the contact form with comments or questions. Or if
-          you prefer using your device's mail application, click the Email me
-          link on the footer.
+          click the Email me link on the footer.
+
+          I am currently developing the route to send the email through the Heroku server.
         </p>
         <br />
         <div>
