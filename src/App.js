@@ -16,11 +16,11 @@ function App() {
       <Nav />
       <div id='container'>
       <Routes>
-        <Route path="about" element={<About />} />
-        <Route path="contact" element={<Contact />} />
-        <Route path="portfolio" element={<Portfolio />} />
-        <Route path="resume" element={<Resume />} />
-        <Route path="fiveyear" element={<FiveYrPlan />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/resume" element={<Resume />} />
+        <Route path="/fiveyear" element={<FiveYrPlan />} />
         <Route path="*" element={<Home />} />
       </Routes>
       </div>
