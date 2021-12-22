@@ -16,9 +16,9 @@ function App() {
       <Nav />
       <div id='container'>
         <Routes>
-          <Route path='/challenge20/about' element={<About />} />
-          <Route path='/challenge20/contact' element={<Contact />} />
-          <Route path='/challenge20/portfolio' element={<Portfolio />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='/portfolio' element={<Portfolio />} />
           <Route path='/resume' element={<Resume />} />
           <Route path='/fiveyear' element={<FiveYrPlan />} />
           <Route path='*' element={<Home />} />
