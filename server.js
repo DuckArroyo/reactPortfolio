@@ -27,7 +27,7 @@ contactEmail.verify((error) => {
   }
 });
 
-router.post('/contact', (req, res) => {
+router.post('/mail', (req, res) => {
   const name = req.body.name;
   const email = req.body.email;
   const message = req.body.message;

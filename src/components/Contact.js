@@ -61,13 +61,15 @@ export default function Contact() {
     // console.log('========name.value at handleSubmit:', name.value);
     // console.log('========email.value at handleSubmit:', email.value);
     // console.log('========message.value at handleSubmit:', message.value);
-    let response = await fetch('http://localhost:5002/contact', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json;charset=utf-8',
-      },
-      body: JSON.stringify(details),
-    });
+    let response = await fetch('/mail',
+      {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json;charset=utf-8',
+        },
+        body: JSON.stringify(details),
+      }
+    );
     // console.log('---------Did it reach this?');
     setStatus('Submit');
     let result = await response.json();
