@@ -1,6 +1,6 @@
 const { createProxyMiddleware } = require('http-proxy-middleware');
 
-module.exports = function(app) {
+module.exports = function (app) {
   app.use(
     '/api',
     createProxyMiddleware({
@@ -9,3 +9,6 @@ module.exports = function(app) {
     })
   );
 };
+
+//REMOVED from package JSON because it breaks the app
+// "proxy": "http://localhost:5002",
