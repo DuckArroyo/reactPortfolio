@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route, Switch } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 // import './App.css'; unused now - moved file to assets folder.
 import Nav from './components/Nav';
 import Home from './components/About';
@@ -16,15 +16,12 @@ function App() {
       <Nav />
       <div id='container'>
         <Routes>
-          <Switch>
-            <Route path='/about' element={<About />} />
-            <Route path='/portfolio' element={<Portfolio />} />
-            <Route path='/resume' element={<Resume />} />
-            <Route path='/fiveyear' element={<FiveYrPlan />} />
-            <Route path='/contact' element={<Contact />} />
-            <Route path='*' element={<Home />} />
-            <Route component={NoMatch} />
-          </Switch>
+          <Route path='/about' element={<About />} />
+          <Route path='/portfolio' element={<Portfolio />} />
+          <Route path='/resume' element={<Resume />} />
+          <Route path='/fiveyear' element={<FiveYrPlan />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='*' element={<Home />} />
         </Routes>
       </div>
       <Footer />
