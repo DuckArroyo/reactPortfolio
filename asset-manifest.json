@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/challenge20/static/css/main.9158d4e8.chunk.css",
-    "main.js": "/challenge20/static/js/main.4231020c.chunk.js",
-    "main.js.map": "/challenge20/static/js/main.4231020c.chunk.js.map",
+    "main.css": "/challenge20/static/css/main.e15e6d7c.chunk.css",
+    "main.js": "/challenge20/static/js/main.f5a18100.chunk.js",
+    "main.js.map": "/challenge20/static/js/main.f5a18100.chunk.js.map",
     "runtime-main.js": "/challenge20/static/js/runtime-main.6c82ce26.js",
     "runtime-main.js.map": "/challenge20/static/js/runtime-main.6c82ce26.js.map",
     "static/js/2.b4ad4069.chunk.js": "/challenge20/static/js/2.b4ad4069.chunk.js",
@@ -10,9 +10,9 @@
     "static/js/3.a9d032c5.chunk.js": "/challenge20/static/js/3.a9d032c5.chunk.js",
     "static/js/3.a9d032c5.chunk.js.map": "/challenge20/static/js/3.a9d032c5.chunk.js.map",
     "index.html": "/challenge20/index.html",
-    "static/css/main.9158d4e8.chunk.css.map": "/challenge20/static/css/main.9158d4e8.chunk.css.map",
+    "static/css/main.e15e6d7c.chunk.css.map": "/challenge20/static/css/main.e15e6d7c.chunk.css.map",
     "static/js/2.b4ad4069.chunk.js.LICENSE.txt": "/challenge20/static/js/2.b4ad4069.chunk.js.LICENSE.txt",
-    "static/js/main.4231020c.chunk.js.LICENSE.txt": "/challenge20/static/js/main.4231020c.chunk.js.LICENSE.txt",
+    "static/js/main.f5a18100.chunk.js.LICENSE.txt": "/challenge20/static/js/main.f5a18100.chunk.js.LICENSE.txt",
     "static/media/index.css": "/challenge20/static/media/F_Background2.f09fbec3.png",
     "static/media/camdenLock.7a99323a.jpg": "/challenge20/static/media/camdenLock.7a99323a.jpg",
     "static/media/canyon.4de56c62.jpg": "/challenge20/static/media/canyon.4de56c62.jpg",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.6c82ce26.js",
     "static/js/2.b4ad4069.chunk.js",
-    "static/css/main.9158d4e8.chunk.css",
-    "static/js/main.4231020c.chunk.js"
+    "static/css/main.e15e6d7c.chunk.css",
+    "static/js/main.f5a18100.chunk.js"
   ]
 }
