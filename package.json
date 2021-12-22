@@ -1,8 +1,6 @@
 {
   "name": "challenge20",
   "homepage": "http://duckarroyo.github.io/challenge20",
-  "contact": "http://duckarroyo.github.io/challenge20/contact",
-  "portfolio": "http://duckarroyo.github.io/challenge20/portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

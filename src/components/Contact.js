@@ -1,9 +1,6 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../utils/helpers';
 
-//! Install on MAC.
-//npm install express cors nodemailer
-
 export default function Contact() {
   const [formState, setFormState] = useState({
     name: '',
@@ -71,7 +68,7 @@ export default function Contact() {
       }
     );
     // console.log('---------Did it reach this?');
-    setStatus('Submit');
+    setStatus('Submited');
     let result = await response.json();
     // console.log(result);
 
