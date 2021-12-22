@@ -10,9 +10,6 @@ export default function Nav() {
             <a href="/">Home</a>
           </li>
           <li>
-            <a href="/contact">Contact</a>
-          </li>
-          <li>
             <a href="/portfolio">Portfolio</a>
           </li>
           <li>
@@ -20,6 +17,9 @@ export default function Nav() {
           </li>
           <li>
             <a href="/fiveyear">5 Year Plan</a>
+          </li>
+          <li>
+            <a href="/contact">Contact</a>
           </li>
         </ul>
       </nav>
