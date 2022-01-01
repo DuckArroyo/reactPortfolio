@@ -8,11 +8,12 @@
 
 ## Links
 
-Github Pages [Link](https://duckarroyo.github.io/challenge20/)
+[Github Pages](https://duckarroyo.github.io/reactPortfolio)
 
-Github Repository [Link](https://github.com/DuckArroyo/challenge20)
+[Github Repository](https://github.com/DuckArroyo/reactPortfolio)
 
-Heroku [Link](https://ancient-fortress-10930.herokuapp.com/ )
+[Heroku](https://ancient-fortress-10930.herokuapp.com/ )
+
 ## Description
 
 Create a single page portfolio with React
@@ -36,9 +37,11 @@ mailer - contact form functionality
 
 DeveloperDuckArroyo
 
-[Portfolio](https://duckarroyo.github.io/challenge2)
+[Email](mailto:DeveloperDuckArroyo@gmail.com)
 
-[React Portfolio](http://DuckArroyo.github.io/challenge20)
+[Portfolio](https://github.com/DuckArroyo/portfolio)
+
+[React Portfolio](http://DuckArroyo.github.io/reactPortfolio)
 
 [GitHub](https://github.com/DuckArroyo)
 
@@ -48,21 +51,14 @@ DeveloperDuckArroyo
 
 [CodePen](https://codepen.io/DeveloperDuckArroyo)
 
-[Email](mailto:DeveloperDuckArroyo@gmail.com)
-
 # Screnshots
 
-Home page
 <img src="./src/assets/home.png" style="width: 400px">
 
-Contact form page
 <img src="./src/assets/contact.png" style="width: 400px">
 
-Portfolio page
 <img src="./src/assets/portfolio.png" style="width: 400px">
 
-Resume page
 <img src="./src/assets/resume.png" style="width: 400px">
 
-5 year plan page
 <img src="./src/assets/five.png" style="width: 400px">

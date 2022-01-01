@@ -3,23 +3,23 @@ import "./projects.css";
 
 //! Import from src file
 import canyon from "../assets/photos/canyon.jpg";
-import dam from "../assets/photos/dam.jpg";
-import eye from "../assets/photos/eye.jpg";
-import camdenLock from "../assets/photos/camdenLock.jpg";
-import mesa from "../assets/photos/mesa.jpg";
-import sand from "../assets/photos/sand.jpg";
+// import dam from "../assets/photos/dam.jpg";
+// import eye from "../assets/photos/eye.jpg";
+// import camdenLock from "../assets/photos/camdenLock.jpg";
+// import mesa from "../assets/photos/mesa.jpg";
+// import sand from "../assets/photos/sand.jpg";
 
 //! Import from public file
 // import photos from '../assets/photos';
 
 export default function ProjectCard(props) {
-  console.log(props.image);
-  console.log(canyon);
-  console.log(dam);
-  console.log(eye);
-  console.log(camdenLock);
-  console.log(mesa);
-  console.log(sand);
+  // console.log(props.image);
+  // console.log(canyon);
+  // console.log(dam);
+  // console.log(eye);
+  // console.log(camdenLock);
+  // console.log(mesa);
+  // console.log(sand);
 
   return (
     <div className="card">

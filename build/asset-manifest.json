@@ -1,30 +1,25 @@
 {
   "files": {
-    "main.css": "/challenge20/static/css/main.9158d4e8.chunk.css",
-    "main.js": "/challenge20/static/js/main.4231020c.chunk.js",
-    "main.js.map": "/challenge20/static/js/main.4231020c.chunk.js.map",
-    "runtime-main.js": "/challenge20/static/js/runtime-main.6c82ce26.js",
-    "runtime-main.js.map": "/challenge20/static/js/runtime-main.6c82ce26.js.map",
-    "static/js/2.b4ad4069.chunk.js": "/challenge20/static/js/2.b4ad4069.chunk.js",
-    "static/js/2.b4ad4069.chunk.js.map": "/challenge20/static/js/2.b4ad4069.chunk.js.map",
-    "static/js/3.a9d032c5.chunk.js": "/challenge20/static/js/3.a9d032c5.chunk.js",
-    "static/js/3.a9d032c5.chunk.js.map": "/challenge20/static/js/3.a9d032c5.chunk.js.map",
-    "index.html": "/challenge20/index.html",
-    "static/css/main.9158d4e8.chunk.css.map": "/challenge20/static/css/main.9158d4e8.chunk.css.map",
-    "static/js/2.b4ad4069.chunk.js.LICENSE.txt": "/challenge20/static/js/2.b4ad4069.chunk.js.LICENSE.txt",
-    "static/js/main.4231020c.chunk.js.LICENSE.txt": "/challenge20/static/js/main.4231020c.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/challenge20/static/media/F_Background2.f09fbec3.png",
-    "static/media/camdenLock.7a99323a.jpg": "/challenge20/static/media/camdenLock.7a99323a.jpg",
-    "static/media/canyon.4de56c62.jpg": "/challenge20/static/media/canyon.4de56c62.jpg",
-    "static/media/dam.abbd8823.jpg": "/challenge20/static/media/dam.abbd8823.jpg",
-    "static/media/eye.0396174e.jpg": "/challenge20/static/media/eye.0396174e.jpg",
-    "static/media/mesa.ea24d0c3.jpg": "/challenge20/static/media/mesa.ea24d0c3.jpg",
-    "static/media/sand.806ab4cd.jpg": "/challenge20/static/media/sand.806ab4cd.jpg"
+    "main.css": "/reactPortfolio/static/css/main.18d66487.chunk.css",
+    "main.js": "/reactPortfolio/static/js/main.ed5db67c.chunk.js",
+    "main.js.map": "/reactPortfolio/static/js/main.ed5db67c.chunk.js.map",
+    "runtime-main.js": "/reactPortfolio/static/js/runtime-main.c98e616c.js",
+    "runtime-main.js.map": "/reactPortfolio/static/js/runtime-main.c98e616c.js.map",
+    "static/js/2.fdc7c3fb.chunk.js": "/reactPortfolio/static/js/2.fdc7c3fb.chunk.js",
+    "static/js/2.fdc7c3fb.chunk.js.map": "/reactPortfolio/static/js/2.fdc7c3fb.chunk.js.map",
+    "static/js/3.a9d032c5.chunk.js": "/reactPortfolio/static/js/3.a9d032c5.chunk.js",
+    "static/js/3.a9d032c5.chunk.js.map": "/reactPortfolio/static/js/3.a9d032c5.chunk.js.map",
+    "index.html": "/reactPortfolio/index.html",
+    "static/css/main.18d66487.chunk.css.map": "/reactPortfolio/static/css/main.18d66487.chunk.css.map",
+    "static/js/2.fdc7c3fb.chunk.js.LICENSE.txt": "/reactPortfolio/static/js/2.fdc7c3fb.chunk.js.LICENSE.txt",
+    "static/js/main.ed5db67c.chunk.js.LICENSE.txt": "/reactPortfolio/static/js/main.ed5db67c.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/reactPortfolio/static/media/F_Background2.f09fbec3.png",
+    "static/media/canyon.4de56c62.jpg": "/reactPortfolio/static/media/canyon.4de56c62.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6c82ce26.js",
-    "static/js/2.b4ad4069.chunk.js",
-    "static/css/main.9158d4e8.chunk.css",
-    "static/js/main.4231020c.chunk.js"
+    "static/js/runtime-main.c98e616c.js",
+    "static/js/2.fdc7c3fb.chunk.js",
+    "static/css/main.18d66487.chunk.css",
+    "static/js/main.ed5db67c.chunk.js"
   ]
 }

@@ -32,13 +32,13 @@
     "name": "Password Generator",
     "image": "../photos/mesa.jpg",
     "gitHub": "https://github.com/DuckArroyo/challenge3",
-    "liveLink": "https://duckarroyo.github.io/passwordgenerator/"
+    "liveLink": "https://duckarroyo.github.io/challenge3"
   },
   {
     "id": 6,
     "name": "Workday Scheduler",
     "image": "../photos/sand.jpg",
     "gitHub": "https://github.com/DuckArroyo/challenge5",
-    "liveLink": "https://duckarroyo.github.io/challenge5/"
+    "liveLink": "https://duckarroyo.github.io/challenge5"
   }
 ]
