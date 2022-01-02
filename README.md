@@ -8,11 +8,11 @@
 
 ## Links
 
-[Github Pages](https://duckarroyo.github.io/reactPortfolio)
+~~[Github Pages](https://duckarroyo.github.io/reactPortfolio)~~
 
 [Github Repository](https://github.com/DuckArroyo/reactPortfolio)
 
-[Heroku](https://ancient-fortress-10930.herokuapp.com/ )
+[Heroku](https://ancient-fortress-10930.herokuapp.com/)
 
 ## Description
 
