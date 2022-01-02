@@ -12,7 +12,7 @@
 
 [Github Repository](https://github.com/DuckArroyo/reactPortfolio)
 
-[Heroku](https://ancient-fortress-10930.herokuapp.com/)
+[Heroku](https://peaceful-journey-85026.herokuapp.com/)
 
 ## Description
 
