@@ -1,7 +1,11 @@
 {
   "name": "challenge20",
   "homepage": "http://duckarroyo.github.io/reactPortfolio",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "engines": {
+    "node": "14.17.6",
+    "npm": "8.3.0"
+  },
   "private": true,
   "dependencies": {
     "@testing-library/user-event": "^12.8.3",
