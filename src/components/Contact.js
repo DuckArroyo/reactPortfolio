@@ -1,35 +1,34 @@
-import React, { useState } from "react";
-import { validateEmail } from "../utils/helpers";
+import React, { useState } from 'react';
+import { validateEmail } from '../utils/helpers';
 
 //! Install on MAC.
 //npm install express cors nodemailer
 
 export default function Contact() {
-
   //! Should I have a separate useState for handle submit?
   const [formState, setFormState] = useState({
-    name: "",
-    email: "",
-    message: "",
+    name: '',
+    email: '',
+    message: '',
   });
 
-  const [errorMessage, setErrorMessage] = useState("");
+  const [errorMessage, setErrorMessage] = useState('');
 
   const { name, email, message } = formState;
 
   function handleChange(e) {
-    if (e.target.name === "email") {
+    if (e.target.name === 'email') {
       const isValid = validateEmail(e.target.value);
       if (!isValid) {
-        setErrorMessage("Your email is invalid.");
+        setErrorMessage('Your email is invalid.');
       } else {
-        setErrorMessage("");
+        setErrorMessage('');
       }
     } else {
       if (!e.target.value.length) {
         setErrorMessage(`${e.target.name} is required.`);
       } else {
-        setErrorMessage("");
+        setErrorMessage('');
       }
     }
     if (!errorMessage) {
@@ -41,7 +40,7 @@ export default function Contact() {
   console.log(formState);
 
   //Changes the form label
-  const [status, setStatus] = useState("Submit");
+  const [status, setStatus] = useState('Submit');
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -49,32 +48,33 @@ export default function Contact() {
     //Sets error on page
     if (!errorMessage) {
       setFormState({ ...formState, [e.target.name]: e.target.value });
-      console.log("Form", formState);
+      console.log('Form', formState);
     }
 
-    setStatus("Sending...");
+    setStatus('Sending...');
     const { name, email, message } = e.target.elements;
     let details = {
       name: name.value,
       email: email.value,
       message: message.value,
     };
-    let response = await fetch("http://localhost:5002/contact", {
-      method: "POST",
+    console.log('details: ', details);
+    let response = await fetch('http://localhost:5002/contact', {
+      method: 'POST',
       headers: {
-        "Content-Type": "application/json;charset=utf-8",
+        'Content-Type': 'application/json;charset=utf-8',
       },
       body: JSON.stringify(details),
     });
-    setStatus("Submit");
+    setStatus('Submit');
     let result = await response.json();
     alert(result.status);
-  }
+  };
 
   return (
     <section>
       <h1>Message me</h1>
-      <form id="contact-form" onSubmit={handleSubmit}>
+      <form id='contact-form' onSubmit={handleSubmit}>
         <p>
           The contact form has front end functionality only at the moment, I
           will add backend functionality as time allows. The form does console
@@ -84,42 +84,43 @@ export default function Contact() {
         <p>To contact me, click the Email me link in the footer.</p>
         <br />
         <div>
-          <label htmlFor="name">Name: </label>
+          <label htmlFor='name'>Name: </label>
           <br />
           <input
-            type="text"
+            type='text'
             defaultValue={name}
             onBlur={handleChange}
-            name="name"
+            name='name'
           />
         </div>
         <div>
-          <label htmlFor="email">Email address: </label>
+          <label htmlFor='email'>Email address: </label>
           <br />
           <input
-            type="email"
+            type='email'
             defaultValue={email}
             onBlur={handleChange}
-            name="email"
+            name='email'
           />
         </div>
         <div>
-          <label htmlFor="message">Message: </label>
+          <label htmlFor='message'>Message: </label>
           <br />
 
           <textarea
-            name="message"
+            name='message'
             defaultValue={message}
             onBlur={handleChange}
-            rows="5"
+            rows='5'
           />
         </div>
         {errorMessage && (
           <div>
-            <p className="error-text">{errorMessage}</p>
+            <p className='error-text'>{errorMessage}</p>
           </div>
         )}
-        <button id="contact-form" type="submit">{status}
+        <button id='contact-form' type='submit'>
+          {status}
         </button>
       </form>
     </section>
