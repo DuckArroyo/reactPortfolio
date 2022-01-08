@@ -32,9 +32,9 @@ router.post('/mail', (req, res) => {
   const email = req.body.email;
   const message = req.body.message;
   console.log('Post route: ', process.env.mailUSER);
-  // console.log('========name at post route:', name);
-  // console.log('========email at post route:', email);
-  // console.log('========message at post route:', message);
+  console.log('========name at post route:', name);
+  console.log('========email at post route:', email);
+  console.log('========message at post route:', message);
 
   const mail = {
     from: name,

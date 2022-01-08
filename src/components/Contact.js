@@ -53,11 +53,11 @@ export default function Contact() {
       email: email.value,
       message: message.value,
     };
-    // console.log('========details at handleSubmit:', details);
+    console.log('========details at handleSubmit:', details);
 
-    // console.log('========name.value at handleSubmit:', name.value);
-    // console.log('========email.value at handleSubmit:', email.value);
-    // console.log('========message.value at handleSubmit:', message.value);
+    console.log('========name.value at handleSubmit:', name.value);
+    console.log('========email.value at handleSubmit:', email.value);
+    console.log('========message.value at handleSubmit:', message.value);
     let response = await fetch('/mail', {
       method: 'POST',
       headers: {
@@ -68,9 +68,9 @@ export default function Contact() {
     // console.log('---------Did it reach this?');
     setStatus('Submited');
     let result = await response.json();
-    // console.log(result);
+    console.log(result);
 
-    // console.log('---------Did it reach this?');
+    console.log('---------Did it reach this?');
 
     alert(result.status);
   };
