@@ -15,7 +15,7 @@ export default function About() {
           the University of Oregon. I am starting a YouTube channel in 2022.
           Love and enjoy the Pacific Northwest #UpperLeftUSA. For the past 6
           years I have been playing the game Ingress where I slay the
-          competition.
+          competition. Over the past I have continued to improve myself via taking better care of my health working out at Crossfit, and by returning to school to upgrade my skill set as a profesional. 
         </p>
       </div>
     </section>

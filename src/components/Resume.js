@@ -21,8 +21,8 @@ export default function Resume() {
             for student trainings
           </li>
           <li>On Board and train student assistants into department</li>
-          <li>Managed department logistics</li>
-          <li>Hire, train, and supervise event student staff</li>
+          <li>Manage department logistics</li>
+          <li>Hire, train, and supervise event planners</li>
           <li>Assess event activities risk and advise on ways to mitigate</li>
           <li>Oversee department payroll and process hiring documents</li>
           <li>EMU Permanent Art Collection manager</li>
@@ -40,14 +40,14 @@ export default function Resume() {
             <li>JavaScript</li>
             <li>React</li>
             <li>- State</li>
-            <li>- MERN</li>
             <li>Progressive Wev Applications</li>
-            <li>NoSQL (Mongo and Mongoose)</li>
+            <li>MongoDB</li>
+            <li>GraphQL</li>
             <li>Object Reactional Mapping</li>
             <li>SQL</li>
             <li>Express.js</li>
             <li>Object Oriented Programming</li>
-            <li>Note.js</li>
+            <li>Node.js</li>
             <li>Server-side APIs</li>
             <li>Third-Party APIs</li>
             <li>Web APIs</li>

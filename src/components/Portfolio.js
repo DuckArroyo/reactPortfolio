@@ -7,8 +7,8 @@ import "./projects.css";
 
 export default function Portfolio() {
   const [projectsList] = useState(projectsJson);
-  console.log(projectsList);
-  console.log(projectsJson);
+  // console.log(projectsList);
+  // console.log(projectsJson);
   return (
     <div className="wrapper">
       {projectsJson.map((projects) => {
