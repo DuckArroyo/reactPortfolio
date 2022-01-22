@@ -40,5 +40,12 @@
     "image": "../photos/sand.jpg",
     "gitHub": "https://github.com/DuckArroyo/challenge5",
     "liveLink": "https://duckarroyo.github.io/challenge5"
+  },
+  {
+    "id": 7,
+    "name": "",
+    "image": "../photos/sand.jpg",
+    "gitHub": "https://github.com/DuckArroyo/The-Final-Project",
+    "liveLink": "https://fast-taiga-42173.herokuapp.com/"
   }
 ]
